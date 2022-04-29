@@ -1,52 +1,78 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-	<style type="text/css">
-		h1 {
-			text-align: center;
+
+<style type="text/css">
+	h1 {
+		text-align: center;
+		font-size: 70px;
+		font-family: 'Trebuchet MS', sans-serif;
+		color:white;
+			}
+			
+	div.background {
+		text-align: center;
+		color: white;
+		background-image:
+			url("https://wallpaperaccess.com/full/417644.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+			}	
+			
+	div.text {
+		color: white;
+		font-size: 25px;
+		font-family: 'Trebuchet MS', sans-serif;
 		}
 
-		#ex {
-			text-align: center;
-      color: white;
-			background-image:
-        url("https://wallpaperaccess.com/full/417644.jpg");
-			background-position: center;
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-		}
-	</style>
+	body {
+		overflow:hidden;
+	}
+	
+</style>
 </head>
 
-<body>
-  <div id="ex">
-    <div>
-      <img src=
-        "https://lh3.googleusercontent.com/WOZPhTfMuf7AVj50rodYORbOHP4dgwzzQE4Wsmr1a0s3OAGDqP7AigE9R0x9uZ2khNkQO9UBiFWe6lSNfzbnwi1YfR2gH1T4ccbUcwdZZ4HDO6RTclu46vszMG7B_JR03hru5khH3xo=w2400" 
-        alt="headshot" 
-        width="50%" 
-        height="50%">
-    </div>
-    <div>
-      <p>
-        I'm currently working as a Labor Market and Performance Data Analyst with Mecklenburg County’s workforce development board, Charlotte Works. In this role, 
-        I perform labor market research and analysis for internal staff, local economic developers, and employers. I maintain a monthly dashboard that tracks various 
-        grant program performance metrics and KPIs. I assist in the creation and maintenance of multiple public-facing labor market information projects, blogs, and 
-        social media content.
-        <br>
-        <br>
-        I received an associate degree from Central Piedmont Community College. I'm currently studying Data Science at the University of North Carolina - Charlotte. 
-        I volunteered in the CMS district for 4 years as a tutor and mentor to homeless children. I've previously enjoyed over ten years building relationships in 
-        customer-facing positions, six years developing leadership skills in the United States Marine Corps Reserves where I was Honorably Discharged as a Sergeant, 
-        and five years in sales positions with focuses on real estate, banking, telecom, and residential security.
-        <br>
-        <br>
-        When I’m not working you can find me spending time with my beautiful family or relaxing with a book. I'm constantly looking for new learning opportunities and 
-        ways to grow. I hope to leave my mark by inspiring others to make the world a better place.
-       </p>
-     </div>
-    </div>
-</body>
+<body style = "margin: 0">
 
+<div class="card" style ="background-color: RGB(17, 57, 86);
+	display: flex;
+	flex-direction: column;
+	border-radius: 24px;">
+  
+	<div class="background" style="margin: 5%">
+	
+		<h1>Getting to Know Me</h1>
+
+			<div class ="headshot"
+				style="margin: 7%;">
+				<img src=
+					"https://lh3.googleusercontent.com/WOZPhTfMuf7AVj50rodYORbOHP4dgwzzQE4Wsmr1a0s3OAGDqP7AigE9R0x9uZ2khNkQO9UBiFWe6lSNfzbnwi1YfR2gH1T4ccbUcwdZZ4HDO6RTclu46vszMG7B_JR03hru5khH3xo=w2400" 
+					alt="headshot" 
+					width="100%" 
+					height="100%">
+				
+			</div>
+		</div>
+
+    <div class="text" style="margin: 0px 24px;">
+      	<p> 
+					I'm currently working as a Labor Market and Performance Data Analyst with Mecklenburg County’s workforce development board, Charlotte Works. In this role, 
+					I perform labor market research and analysis for internal staff, local economic developers, and employers. I maintain a monthly dashboard that tracks various 
+					grant program performance metrics and KPIs. I assist in the creation and maintenance of multiple public-facing labor market information projects, blogs, and 
+					social media content.
+					<br>
+					<br>
+					I received an associate degree from Central Piedmont Community College. I'm currently studying Data Science at the University of North Carolina - Charlotte. 
+					I volunteered in the CMS district for 4 years as a tutor and mentor to homeless children. I've previously enjoyed over ten years building relationships in 
+					customer-facing positions, six years developing leadership skills in the United States Marine Corps Reserves where I was Honorably Discharged as a Sergeant, 
+					and five years in sales positions with focuses on real estate, banking, telecom, and residential security.
+					<br>
+					<br>
+					When I’m not working you can find me spending time with my beautiful family or relaxing with a book. I'm constantly looking for new learning opportunities and 
+					ways to grow. I hope to leave my mark by inspiring others to make the world a better place.
+				</p>
+			</div>
+</div>
+</body>
 </html>
